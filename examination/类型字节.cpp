@@ -17,6 +17,8 @@ sizeof(数组)=数组的元素个数*每个元素所占字节
 
 unsigned char在32位机的存储范围是0~255
 
+字面常量4.2, 是float(不是double)
+
 */
 #include <stdio.h>
 #include <string.h>
@@ -43,5 +45,7 @@ int main()
 
     func(a, a, b, b, c, c);
     //int*:8 8, char*:8 8 8 8
+
+    
     return 0;
 }
